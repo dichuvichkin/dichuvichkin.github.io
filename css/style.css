@@ -20,3 +20,19 @@ body {
     text-align: center;
     
 }
+
+.text {
+    padding: 0.4em;
+}
+
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+}
