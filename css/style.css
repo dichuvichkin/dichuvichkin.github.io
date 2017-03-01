@@ -1,7 +1,7 @@
 body {
   all: unset;
   color: #212121;
-  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.02em;  
