@@ -5,6 +5,46 @@
     <title>Страница для страниц</title>
       <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />  
+    <style>
+        body {
+              all: unset;
+              color: #212121;
+              font-family: "Helvetica Neue", sans-serif;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              letter-spacing: 0.02em;  
+            }
+
+            .main {
+                display: flex;
+                justify-content: center;
+                height: 100vh; 
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+            }
+
+            .text {
+                padding: 0.4em;
+            }
+
+            .links {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .links a {
+                text-decoration: none;
+                color: inherit;
+            }
+    </style>
      <script async src="https://use.fontawesome.com/0ebc4fe0f1.js"></script>
 </head>
 <body>
@@ -24,4 +64,3 @@
 
 </body>
 </html>
-<link rel="stylesheet" href="css/style.css">
